@@ -172,16 +172,7 @@ body {
     font-weight: 500;
     color: #fff;
 }
-footer#rodape {
-    clear: both;
-    border-top: 1px solid #606060;
-    padding: 0.1rem;
-    color: #000000;
-}
 
-footer#rodape p {
-    text-align: center;
-}
 
 @media screen  and (max-width:1330px) {
     .form-img{
