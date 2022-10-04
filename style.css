@@ -101,6 +101,7 @@ body {
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
+
 .input-box input {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
@@ -128,7 +129,7 @@ body {
     color: #000000be;
 }
 
-.gender-group{
+.gender-group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
@@ -174,24 +175,28 @@ body {
 }
 
 
-@media screen  and (max-width:1330px) {
-    .form-img{
+@media screen and (max-width:1330px) {
+    .form-img {
         display: none;
     }
+
     .conteiner {
         width: 50%;
     }
-    .form{
+
+    .form {
         width: 100%;
     }
 
 }
-@media  screen and (max-width: 1064px) {
-    .conteiner{
+
+@media screen and (max-width: 1064px) {
+    .conteiner {
         width: 90%;
         height: auto;
     }
-    .input-group{
+
+    .input-group {
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
@@ -202,10 +207,12 @@ body {
     .gender-input {
         margin-top: 2rem;
     }
+
     .gender-gruop {
-         flex-direction: column;
-        
+        flex-direction: column;
+
     }
+
     .gender-input {
         margin-top: 0.5rem;
     }
